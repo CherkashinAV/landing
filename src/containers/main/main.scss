@@ -1,0 +1,28 @@
+.main {
+    width: 100%;
+    .main__bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+    }
+    .main__container {
+        width: 100%;
+        border-bottom: 1px solid #7E868E;
+    }
+
+    .CTA {
+        margin-top: 188px;
+        margin-bottom: 465px;
+        margin-left: 370px;
+    }
+
+    h1 {    
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 60px;
+        text-align: center;
+    }
+}

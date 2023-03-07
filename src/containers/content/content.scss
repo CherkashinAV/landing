@@ -1,0 +1,30 @@
+.content {
+    background-color: #081130;
+    .content__container {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        .content__image {
+            width: 1090px;
+            height: auto;
+        }
+        .CTA {
+            margin-top: 109px;
+            margin-left: 84px;
+            .CTA__desc {
+                max-width: 226px;
+            }
+        }
+        .content__up-cloud {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+            
+    }
+}

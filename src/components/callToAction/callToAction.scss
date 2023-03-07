@@ -1,0 +1,56 @@
+@import '/src/variables';
+.CTA {
+    max-width: 647px;
+    text-align: left;
+    .CTA__desc {
+        max-width: 132px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 150%;
+        padding: 10px 18px;
+        background-color: #F2F6FA;
+    }
+    .CTA__heading {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: -1px;
+        color: $white;
+        margin-top: 24px;
+        text-align: left;
+    }
+    .CTA__text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 143%;
+        color: $white;
+        margin-top: 24px;
+    }
+    .CTA__button {
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        button {
+            padding: 30px 50px;
+            background-color: $yellow;
+            margin-right: 10px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 152%;
+            border-radius: 8px;
+            border: none;
+            outline: none;
+        }
+        .CTA__button-text {
+            max-width: 210px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 160%;
+            color: $white;
+            margin: 0;
+        }
+    }
+}

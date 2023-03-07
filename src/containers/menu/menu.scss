@@ -1,0 +1,13 @@
+@import '/src/variables';
+
+.menu {
+    margin-top: 80px !important;
+    .menu__items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        .item-card {
+            width: 32%;
+        }   
+    }
+}

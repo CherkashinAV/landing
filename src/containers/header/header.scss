@@ -1,0 +1,45 @@
+@import '/src/variables';
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .header__contact {
+        padding: 37px 0px 31px 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header__contact-logo {
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 143%;
+            color: $white;
+        }
+        .header__contact-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 88px;
+                img {
+                    margin-right: 12px;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 150%;
+                    color: $white;
+                    span {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 152%;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
